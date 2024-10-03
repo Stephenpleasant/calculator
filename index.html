@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="nav">
+            <h1>calc</h1>
+            <div class="theme">
+                <span class="lin" data-theme="default"></span>
+                <span class="lin" data-theme="light"></span>
+                <span class="lin" data-theme="dark"></span>
+            </div>
+        </div>
+
+        <div class="section">
+            <h1 id="result">0</h1>
+        </div>
+
+        <div class="main" role="main">
+            <div class="num">
+                <input type="button" value="7" class="digit">
+                <input type="button" value="8" class="digit">
+                <input type="button" value="9" class="digit">
+                <input type="button" value="DEL" class="del">
+            </div>
+            <div class="num">
+                <input type="button" value="4" class="digit">
+                <input type="button" value="5" class="digit">
+                <input type="button" value="6" class="digit">
+                <input type="button" value="+" class="operator">
+            </div>
+            <div class="num">
+                <input type="button" value="1" class="digit">
+                <input type="button" value="2" class="digit">
+                <input type="button" value="3" class="digit">
+                <input type="button" value="-" class="operator">
+            </div>
+            <div class="num">
+                <input type="button" value="." class="digit">
+                <input type="button" value="0" class="digit">
+                <input type="button" value="/" class="operator">
+                <input type="button" value="*" class="operator">
+            </div>
+            <div class="num">
+                <input type="button" value="RESET" class="reset">
+                <input type="button" value="=" class="equal">
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
